@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    
 
 </head>
 
-<body class="bg-dark">
+<body class="bg-light">
  <!-- navbar-begin -->
  <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">Jellyfish</a>
+    <a class="navbar-brand" href="index.html"><h3>Jellyfish</h3></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,36 +32,83 @@
 </nav>
 <!-- navbar-end -->
 
-<!--Header start -->
-<div class="container text-center p-5 mt-5 bg-light">
+<!-- Hero begins -->
+<div class="container-fluid">
+  <div class="row">
+  <img src="https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2022/08/1024/512/GettyImages-883265034.jpg?ve=1&tl=1" alt="">
+  </div>
+
+</div>
+
+<!-- Hero ends -->
+
+<!--H1 start -->
+<div class="container text-center p-5  bg-light">
   <div class="row">
     <div class="col-12"><h1>Jellyfish Are Really Cool Fishes</h1>
     <p>Jellyfish are mainly free-swimming marine animals with umbrella-shaped bells and trailing tentacles, although a few are anchored to the seabed by stalks rather than being mobile. The bell can pulsate to provide propulsion for efficient locomotion. The tentacles are armed with stinging cells and may be used to capture prey and defend against predators. Jellyfish have a complex life cycle. The medusa is normally the sexual phase, which produces planula larvae; these then disperse widely and enter a sedentary polyp phase, before reaching sexual maturity.</p>
     </div>
   </div>
-<!--Header ends -->
+<!--H1 ends -->
 
-<!-- Grid with jellyfish images starts -->
-
-<div class="container text-center mt-3">
+<!-- Grid of cards with jellyfish images starts -->
+<div class="container text-center mt-3 mb-5 fs-2">
   <div class="row">
-    <div class="col">
-      <img src="https://static.scientificamerican.com/sciam/cache/file/B7E980C5-B182-4A2E-80369F2AC535EB35_source.jpg" alt="" class="card" width="300px">
-      
-      
+    <div class="col-md">
+      <div id="card-1" class="card">
+        <img
+          src="https://static.scientificamerican.com/sciam/cache/file/B7E980C5-B182-4A2E-80369F2AC535EB35_source.jpg"
+          class="card-img-top"
+          alt="Close up of Golden Retriever sitting on grass."
+          width="100"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Jelly 1</h3>
+          <p class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-dark btn-md">More Info</a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="https://www.americanoceans.org/wp-content/uploads/2023/07/what-are-jellyfish-made-of-1024x683.jpeg" alt="" class="card" width="300px">
-      
+
+    <div class="col-md">
+      <div id="card-2" class="card">
+        <img
+          src="https://www.americanoceans.org/wp-content/uploads/2023/07/what-are-jellyfish-made-of-1024x683.jpeg"
+          class="card-img-top"
+          alt="Greate Dane sitting next to body of water."
+          width="100"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Jelly 2</h3>
+          <p class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-dark btn-md">More Info</a>
+        </div>
+      </div>
     </div>
-    <div class="col">
-      <img src="https://t4.ftcdn.net/jpg/05/61/40/09/360_F_561400922_TmD7iZI8kMUqBmmb0e4dGwkDTbCCDM9c.jpg" alt="" class="card" width="300px">
+
+    <div class="col-md">
+      <div id="card-3" class="card">
+        <img
+          src="https://t4.ftcdn.net/jpg/05/61/40/09/360_F_561400922_TmD7iZI8kMUqBmmb0e4dGwkDTbCCDM9c.jpg"
+          class="card-img-top"
+          alt="German Shepard sitting on fall leaves and grass."
+          width="100"
+        />
+        <div class="card-body">
+          <h3 class="card-title">Jelly 3</h3>
+          <p class="card-body">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-outline-dark btn-md">More Info</a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
-<!-- Grid with jellyfish images ends
 
-<!--  -->
+<!-- Grid of cards with jellyfish images ends
+
+  
+  Table begins -->
+  
 <div class="container text-center mt-5">
   <div class="row">
     <div class="col-12"><h1>Four Major Classes of Jellyfish</h1></div>
@@ -97,14 +146,19 @@
           
           </tr>
       </tbody>
-    </table> 
+    </table>
+    <a class="btn btn-dark mt-3 mb-5" href="register.html" role="button">Next Page</a> 
   </div>
+</div>
+
+  <div class="container-fluid pt-5 pb-5 bg-secondary">
+    <div class="row">
+    <footer class="text-center"><h3>Just Jellies ©️2024</h3></footer>
+  </div>
+</div>
 
 
-
-
-
-
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 
 </body>
 </html>
